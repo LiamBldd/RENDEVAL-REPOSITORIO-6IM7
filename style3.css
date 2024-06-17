@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    font-family: Arial, sans-serif;
+    background-color: #FFEBD9;
+}
+h1{
+    color: #D83D23;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    background-color:#FFEBD9;
+}
+.top-nav {
+    background-color: #FFEBD9;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+}
+
+.top-nav a, .top-nav button {
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+    border: none;
+    background: none;
+    font-weight: bold;
+}
+
+.event-title {
+    text-align: center;
+    padding: 20px;
+    margin-top: 60px; /* Adjust based on header height */
+    background-color: #FFEBD9;
+}
+
+.event-header img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+.event-body {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.map-column, .tickets-column {
+    flex: 1;
+    margin: 10px;
+    background-color: #FFEBD9;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.map-column img, .tickets-column img {
+    width: 100%;
+    display: block;
+}
+
+.tickets-column {
+    padding: 20px;
+}
+
+.tickets-column h2, .map-column h2 {
+    margin-bottom: 15px;
+}
+
+.tickets-column p {
+    margin-bottom: 10px;
+}
+
+.tickets-column button {
+    background-color: #B5DEDE;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: 60px;
+    font-style: normal;
+    font-family: "Roboto", sans-serif;
+
+    width: 100%;
+}
+
+.top-nav {
+    background-color: #FFEBD9;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.top-nav a, .top-nav button {
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+    border: none;
+    background: none;
+    font-weight: normal;
+    font-family: "Roboto", sans-serif;
+}
+
+.sidebar {
+    background-color: #00457c;
+    position: fixed;
+    right: -250px;  
+    top: 0;
+    width: 250px;
+    height: 100%;
+    padding: 20px;
+    transition: right 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;  
+}
+
+.sidebar a, .sidebar button {
+    color: white;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    border-bottom: 1px solid #eee;
+}
+
+.close-btn {
+    font-size: 30px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    align-self: flex-end;
+    color: white;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+    background-color: #ccc;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.subtext {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.fan-id-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.fan-id-form input, .fan-id-form button {
+    padding: 10px;
+    margin: 5px 0;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.fan-id-form button {
+    background-color: #B5DEDE;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    font-weight: normal;
+    font-family: "Roboto", sans-serif;
+    border-radius: 5px;
+}
+
+.small-text {
+    font-size: 12px;
+    color: #000;
+    margin-top: 10px;
+}
+
+.continue-button {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.continue-button button {
+    background-color: #B5DEDE;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 60px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    border-radius: 5px;
+    width: 200px;  /* Puede ajustarse según las preferencias de diseño */
+}
+

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Outfit:wght@100..900&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DawnTech Innovation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+</div>
+
+        <div class="top-nav">
+            <a onclick="location.href='inicio.html'">Inicio</a>
+            <a onclick="location.href='perfil.html'">Perfil</a>
+            <a onclick="location.href='mis_eventos.html'">Mis Eventos</a>
+            <a onclick="location.href='generar_fanid.html'">FanID</a>
+            <button class="menu-toggle">&#9776;</button>
+        </div>
+    </header>
+
+    <main>
+        <h1>DawnTech Innovation</h1>
+        <div class="icon-row">
+            <button onclick="location.href='seleccionar_boletos.html'">
+                <img src="eventos.png" alt="Icono Eventos">
+                Eventos
+            </button>
+            <button onclick="location.href='compra_boletos.html'">
+                <img src="boletos.png" alt="Icono Boletos">
+                Boletos
+            </button>
+            <button>
+                <img src="sorteo.png" alt="Icono Sorteo">
+                Sorteo
+            </button>
+            <button>
+                <img src="calendario.png" alt="Icono Calendario">
+                Calendario
+            </button>
+        </div>
+        
+        <div class="search-bar">
+            <input type="search" placeholder="Buscar...">
+        </div>
+
+        <div class="carousel">
+            <div class="carousel-inner">
+                <a href="seleccionar_boletos.html"><img src="imagenes/feid.jpg" alt="Imagen 1"></a>
+                <a href="seleccionar_boletos.html"><img src="imagenes/feid.jpg" alt="Imagen 2"></a>
+                <a href="seleccionar_boletos.html"><img src="imagenes/feid.jpg" alt="Imagen 3"></a>
+            </div>
+            <button class="carousel-control prev" onclick="moveCarousel(-1)">&#10094;</button>
+            <button class="carousel-control next" onclick="moveCarousel(1)">&#10095;</button>
+        </div>
+        <div class="fan-id-section">
+            <div class="fan-id-left">
+                <h2>¿Ya tienes Fan ID?</h2>
+                <p>Obténlo para no perderte ningún evento</p>
+                <button>Registrar</button>
+            </div>
+            <div class="fan-id-right">
+                <p>Debes contar con un Fan ID</p>
+                <p>Solo puedes solicitar un boleto al evento por Fan ID</p>
+                <button>Obtener Boletos</button>
+            </div>
+        </div>
+    </main>
+
+    <aside class="sidebar">
+        <button class="close-btn">&times;</button>
+        <div class="menu-item">
+            <a href="#admin">Admin</a>
+            <div class="sub-menu">
+                <a href="#publicacion">Publicación de eventos</a>
+                <a href="#fanid">Fan ID</a>
+            </div>
+        </div>
+        <div class="menu-item">
+            <a href="#eventos">Eventos</a>
+            <div class="sub-menu">
+                <a href="#sorteo">Sorteo</a>
+                <a href="#compra">Compra</a>
+                <a href="#scanner">ScannerQR</a>
+                <a href="#validacion">Validación de Boletos</a>
+            </div>
+        </div>
+    </aside>
+
+    <script src="script.js"></script>
+</body>
+</html>

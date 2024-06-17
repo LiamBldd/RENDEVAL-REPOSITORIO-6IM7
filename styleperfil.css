@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFEBD9; /* Fondo modificado */
+    color: #333;
+    line-height: 1.6;
+}
+
+.top-nav {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: relative;
+}
+
+
+.top-nav a, .top-nav button {
+    color: 000;
+    background: transparent;
+    text-decoration: none;
+    padding: 10px;
+    border: none;
+    background: none;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+}
+
+.slide-menu {
+    display: none;
+    position: absolute;
+    width: 100%;
+    background-color: #00457c;
+    z-index: 100;
+    top: 40px; /* Adjust based on your top nav's height */
+}
+
+.slide-menu a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #FFEBD9;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.sidebar ul {
+    list-style: none;
+    background-color: #FFEBD9;
+    color: #000;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    color: #000;
+}
+
+.sidebar a:hover {
+    background-color: #FFEBD9;
+}
+
+.profile-content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #FFEBD9;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+h1{
+    color: #D83D23;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+h2 {
+    color: #D83D23; /* Color del título modificado */
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.subtext {
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-family: "Outfit", sans-serif;
+}
+
+.personal-info form {
+    background-color: #FFEBD9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.personal-info label {
+    display: block;
+    margin: 10px 0 5px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    background-color: #FFEBD9;
+}
+.personal-info form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #B5DEDE; /* Button background color */
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.personal-info form button:hover {
+    background-color: #003366; /* Button hover color */
+}
+
+
+.personal-info input[type="text"],
+.personal-info input[type="email"],
+.personal-info input[type="tel"],
+.personal-info select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 123, 0, 0.37); /* Fondo naranja */
+    font-family: "Roboto", sans-serif; /* Fuente Roboto */
+}
+
+.personal-info input[type="checkbox"] {
+    margin-right: 5px;
+}
